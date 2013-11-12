@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE struts PUBLIC    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<!--
+		setting encoding,DynamicMethod,language <constant
+		name="struts.custom.i18n.resources"
+		value="messageResource"></constant>
+	-->
+	<constant name="struts.i18n.encoding" value="UTF-8"></constant>
+	<constant name="struts.enable.DynamicMethodInvocation" value="true"></constant>         
+	   <!-- add package here extends="struts-default"-->
+	<package  name="deppon" extends="json-default"> 
+	<!--需要将struts-default改为json-default-->      
+	<!-- setting action -->		
+	<!--返回值类型设置为json,不设置返回页面-->
+	<!-- 初始化的省份，城市，营业网点 返回给客户端  -->
+	<action name="initdata" class="com.deppon.server.actions.ReturnInitInfoAction" method="initDataToClient">
+		<result type="json"></result>
+	</action>
+	<!-- 登陆 -->
+		<action name="login" class="com.deppon.server.actions.UserAction" method="login">
+			<result type="json"></result> 
+		</action>
+		<action name="regist" class="com.deppon.server.actions.UserAction" method="regist">
+			<result type="json"></result> 
+		</action>
+		<action name="cityfinddept" class="com.deppon.server.actions.OrderAction" method="returnDepts"> 
+			<result type="json"></result> 
+		</action>
+		<!-- 网点信息 -->
+		<action name="getdeptinfo" class="com.deppon.server.actions.OrderAction" method="returnDeptInfo"> 
+			<result type="json"></result> 
+		</action>
+		<!-- 定单请求 -->
+		<action name="sendorder" class="com.deppon.server.actions.OrderAction" method="createOrder"> 
+			<result type="json"></result> 
+		</action>
+		<!-- 网点查询 -->
+		<action name="deptsearch" class="com.deppon.server.actions.OrderAction" method="deptSearch"> 
+			<result type="json"></result> 
+		</action>
+		<!-- 货物跟踪 -->
+		<action name="goodstrack" class="com.deppon.server.actions.OrderAction" method="goodsTrack"> 
+			<result type="json"></result> 
+		</action>
+		<!-- 价格时效查询 -->
+		<action name="pricesearch" class="com.deppon.server.actions.OrderAction" method="priceSearch"> 
+			<result type="json"></result> 
+		</action>
+		<!-- 订单管理请求 -->
+		<action name="ordermanage" class="com.deppon.server.actions.OrderAction" method="orderManage"> 
+			<result type="json"></result> 
+		</action>
+		<!-- 修改密码请求 -->
+		<action name="modifypwd" class="com.deppon.server.actions.UserAction" method="modifyPwd"> 
+			<result type="json"></result> 
+		</action>
+		<!-- webview个人资料 加载省份请求 -->
+		<action name="loadprovinces" class="com.deppon.server.actions.UserAction" method="loadProvinces"> 
+			<result type="json"></result> 
+		</action>
+		<!-- webview个人资料 加载城市请求 -->
+		<action name="loadcitys" class="com.deppon.server.actions.UserAction" method="loadCitys"> 
+			<result type="json"></result> 
+		</action>
+		<!-- webview个人资料 保存资料请求 -->
+		<action name="savebaseinfo" class="com.deppon.server.actions.UserAction" method="SaveBaseInfo"> 
+			<result type="json"></result> 
+		</action>
+	</package>
+</struts>
