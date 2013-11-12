@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+  
+   <TextView android:id="@+id/p11_tv_goodstrack"
+	   android:text="@string/p11_str_t1101"
+	   android:layout_width="wrap_content"
+	   android:textSize="18dp"
+	   android:textColor="#949449"
+	   android:layout_height="wrap_content">
+  </TextView>
+  
+	<EditText
+		android:id="@+id/p11_et_goodstrack"
+		android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+	    android:textSize="15dip"
+	    android:hint="@string/p11_str_t1102"
+	    android:numeric="integer"
+    	android:gravity="center"
+     	android:layout_marginLeft="5dip"
+      />
+	
+	<Button
+		android:id="@+id/p11_btn_b1101"
+		android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/p11_btn_t1101"
+    	android:textSize="15dp"
+    	android:gravity="center"
+    	android:textColor="#211201"
+ 	 />
+ 			
+</LinearLayout>
+  

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="p01_progress_text">正在初始化...</string>
+	
+	<string name="p02_str_t0201">用户登录</string>
+    <string name="p02_str_t0202">Email：</string>
+    <string name="p02_str_t0203">登录密码：</string>
+    <string name="p02_str_k0201">登录</string>
+    <string name="p02_str_k0202">注册新用户</string>
+    <string name="p02_str_k0203">退出</string>
+    
+    <string name="p03_str_t0301">电子邮箱：</string>
+    <string name="p03_str_t0302">联系电话：</string>
+    <string name="p03_str_t0303">设置密码：</string>
+    <string name="p03_str_t0304">确认密码：</string>
+    
+    <string name="p04_str_k0401">现在下单</string>
+    <string name="p04_str_k0402">订单管理</string>
+    <string name="p04_str_k0403">用户管理</string>
+    <string name="p04_str_k0404">网点查询</string>
+    
+    <string name="p04_str_exit">退出</string>
+     
+     <string name="p05_str_t0501">发货人：</string>
+     <string name="p05_str_t0502">联系电话：</string>
+     <string name="p05_str_t0503">受理网点：</string>
+     <string name="p05_str_t0504">网点信息：</string>
+     <string name="p05_str_t0505">同意并提交</string>
+     <string name="p05_str_t0506">货物名称：</string>
+     
+     <string name="p05_str_t0507">请填写托运人</string>
+     <string name="p05_str_t0508">请填写联系电话</string>
+     
+    <string name="p05_btn_t0501">详情</string>
+     
+    <string name="p10_str_t1001">网点查询</string>
+    <string name="p10_str_t1002">请输入查询关键词,否则显示所有网点:</string>
+    <string name="p10_btn_b1001">网点查询</string>
+    
+     <string name="p11_str_t1101">货物跟踪</string>
+     <string name="p11_str_t1102">请输入 一个7-8位运单号数字</string>
+     <string name="p11_btn_t1101">开始查询</string>
+    
+    <string name="p12_str_ydnumber">您输入的运单号：</string>
+    <string name="p12_str_ydstatus">运单状态</string>
+    <string name="p12_str_status">状态：</string>
+    <string name="p12_str_descript">状态描述：</string>
+    
+    <string name="p12_str_basicinfo">基本信息</string>
+    <string name="p12_str_endcity">目的城市：</string>
+    <string name="p12_str_trackway">承运方式：</string>
+    <string name="p12_str_takeway">提货方式：</string>
+    <string name="p12_str_goodsname">货物名称：</string>
+    <string name="p12_str_goodscount">货物件数：</string>
+    <string name="p12_str_goodsweight">货物重量：</string>
+    <string name="p12_str_goodsvolume">货物体积：</string>
+    
+    <string name="p12_str_arriveinfo">到达信息</string>
+    <string name="p12_str_takename">提货点名称：</string>
+    <string name="p12_str_takeperson">提货人：</string>
+    <string name="p12_str_takephone">提货点电话：</string>
+    <string name="p12_str_takeaddress">提货点地址：</string>
+    
+    <string name="p12_str_tracktitle">跟踪信息</string>
+    <string name="p12_str_trackdate">跟踪时间</string>
+    <string name="p12_str_tracktype">跟踪类型</string>
+    <string name="p12_str_trackinfo">跟踪信息</string>
+    
+    <string name="p14_str_title">价格时效查询</string>
+    <string name="p14_str_route">运输路线</string>
+    <string name="p14_str_sendplace">发货地</string>
+    <string name="p14_str_aimplace">目的地</string>
+    <string name="p14_str_tratype">运输类型</string>
+    
+    <string name="p14_btn_beginsearch">开始查询</string>
+    
+    <string name="p15_str_date">发货日期</string>
+    <string name="p15_str_wgoods">重货：</string>
+    <string name="p15_str_lgoods">轻货：</string>
+    <string name="p15_str_minprice">最低一票：</string>
+    <string name="p15_str_takegoods">预计总部可提货时间：</string>
+    <string name="p15_str_sendgoods">预计总部可派送时间：</string>
+    <string name="p15_str_worktime">运行时效：</string>
+    <string name="p15_str_backup">注:空运系统暂时只提供(广州,深圳)出发的报价服务!</string>
+     <!-- 空运 -->
+    <string name="p15_str_morning">早班</string>
+    <string name="p15_str_non">中班</string>
+    <string name="p15_str_night">晚班</string>
+    <string name="p15_str_schedule">晚班</string>
+     
+     <!-- 订单管理 -->
+     <string name="p20_str_ordernumber">订单号：</string>
+     <string name="p20_str_orderdate">下单日期：</string>
+    <string name="p20_str_goodsname">货物名称：</string>
+  </resources>

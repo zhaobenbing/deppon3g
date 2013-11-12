@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<TextView
+	  	android:text="@string/p14_str_title"
+	  	android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="23dp"
+		android:textColor="#778899"
+     />  
+    <!-- 运输路线 -->
+    <TextView
+	  	android:text="@string/p14_str_route"
+	  	android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="20dp"
+		android:textColor="#00ff00"
+     />  		
+     <!-- 发货地 -->
+   <LinearLayout android:orientation="horizontal" android:layout_marginTop="10dip"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:text="@string/p14_str_sendplace"
+			android:layout_width="wrap_content" android:textSize="20dp"
+			android:textColor="#949449" android:layout_height="wrap_content">
+		</TextView>
+		 <Spinner	
+			android:id="@+id/p14_sp_pro_send"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+ 			android:layout_marginLeft="8dip"
+  		/>
+		<Spinner	
+			android:id="@+id/p14_sp_city_send"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+ 			android:layout_marginLeft="20dip"
+		/>
+	</LinearLayout>	
+	<!-- 发货地 -->
+	<LinearLayout android:orientation="horizontal" android:layout_marginTop="10dip"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:text="@string/p14_str_aimplace"
+			android:layout_width="wrap_content" android:textSize="20dp" 
+			android:textColor="#949449" android:layout_height="wrap_content">
+		</TextView>
+		 <Spinner	
+			android:id="@+id/p14_sp_pro_aim"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+ 			android:layout_marginLeft="8dip"
+ 		/>
+		<Spinner	
+			android:id="@+id/p14_sp_city_aim"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+ 			android:layout_marginLeft="20dip"
+		/>
+	</LinearLayout>	
+	<!-- 运输类型 -->
+	<LinearLayout android:orientation="horizontal" android:layout_marginTop="10dip"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:text="@string/p14_str_tratype"
+			android:layout_width="wrap_content" android:textSize="20dp"
+			android:textColor="#949449" android:layout_height="wrap_content">
+		</TextView>
+		 <Spinner	
+			android:id="@+id/p14_sp_tratype"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+ 			android:layout_marginLeft="50dip"
+ 		/>
+	</LinearLayout>	
+	<!-- 开始查询按钮 -->
+	 <Button	
+			android:id="@+id/p14_btn_beginsearch"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/p14_btn_beginsearch"
+			android:layout_marginTop="20dip"
+  		/>
+</LinearLayout>

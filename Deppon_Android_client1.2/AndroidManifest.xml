@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.deppon"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/logo" android:label="@string/app_name" android:debuggable="true">
+        <activity android:name=".client.ui.P01_WelcomeAct"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--导航页面-->
+        <activity android:name=".client.ui.TabWidget"/>
+       <!-- 选项Items -->
+       <activity android:name=".client.ui.TabSysManager"/>
+       <activity android:name=".client.ui.TabConsult"/>
+       <activity android:name=".client.ui.TabSelfService"/>
+       <activity android:name=".client.ui.TabBussiness"/>
+       <activity android:name=".client.ui.TabProduce"/>
+        
+        <!-- 登陆 -->
+		<activity android:name=".client.ui.P02_LoginAct" android:label="@string/p02_title"/>
+ 		
+		<!-- 注册 -->
+		<activity android:name=".client.ui.P03_RegistAct"/>
+		<!-- 下单界面 -->
+		<activity android:name=".client.ui.P05_NowOrderAct"/>
+		<!-- 订单管理 -->
+		<activity android:name=".client.ui.P06_OrderManageAct"/>
+		<activity android:name=".client.ui.P20_OrdMagUIAct"/>
+ 		<!-- 系统管理 个人资料 -->
+ 		<activity android:name=".client.ui.P07_PersonDatum"/>
+ 		<!-- 系统管理 联系人 -->
+ 		<activity android:name=".client.ui.P08_ContactAct"/>
+ 		<!-- 系统管理 修改密码 -->
+ 		<activity android:name=".client.ui.P09_ModifyPwdAct"/>
+ 		<!-- 自助服务 网点查询 -->
+ 		<activity android:name=".client.ui.P10_DeptSearchAct"/>
+ 		<!-- 自助服务 货物跟踪 -->
+ 		<activity android:name=".client.ui.P11_GoodsTrackAct"/>
+ 		<!-- 货物跟踪结果 -->
+ 		<activity android:name=".client.ui.P12_GoodsTrackResult_Act"/>
+ 		<!-- 货物跟踪详细信息 -->
+ 		<activity android:name=".client.ui.P13_TrackInfoAct"/>
+ 		<!-- 货物跟踪价格查询 -->
+ 		<activity android:name=".client.ui.P14_PriceSearchAct"/>
+ 		<!-- 价格查询结果 -->
+ 		<activity android:name=".client.ui.P15_PriceSearchResultAct"/>
+ 		<!-- 产品业务 -->
+ 		<activity android:name=".client.ui.P16_Air_TranAct"/>
+ 		<activity android:name=".client.ui.P17_CarTranAct"/>
+ 		<activity android:name=".client.ui.P18_CityTranAct"/>
+ 		<activity android:name=".client.ui.P19_CardAirhAct"/>
+ 		<!-- 咨询建议投诉 -->
+ 		<activity android:name=".client.ui.P21_ConsultAct"/>
+ 		<activity android:name=".client.ui.P22_AdviceAct"/>
+ 		<activity android:name=".client.ui.P23_ComplainAct"/>
+    </application>
+    <uses-sdk android:minSdkVersion="8" />
+
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+</manifest> 

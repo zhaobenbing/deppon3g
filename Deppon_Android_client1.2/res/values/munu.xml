@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="menu_index">首页</string>
+	<string name="menu_back">返回</string>
+	<string name="menu_logout">退出</string>
+	<string name="menu_about">关于</string>
+	<string name="menu_settings">设置</string>
+	<string name="menu_search">查找</string>
+	<string name="menu_update">更新</string>
+	<string name="menu_order">现在下单</string>
+	<string name="menu_ormanager">订单管理</string>
+	<string name="menu_deptsearch">网点查询</string>
+	<string name="menu_pricesearch">价格时效</string>
+	<string name="menu_track">货物跟踪</string>
+ </resources>

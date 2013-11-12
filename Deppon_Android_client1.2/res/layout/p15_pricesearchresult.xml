@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	 <!-- 发货日期 -->
+	  <LinearLayout android:orientation="horizontal" android:layout_marginTop="10dip"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<TextView
+	  	android:text="@string/p15_str_date" android:id="@+id/p15_tv_sendtime"
+	  	android:layout_width="wrap_content" android:visibility="gone"
+		android:layout_height="wrap_content"
+		android:textSize="28dip"
+		android:textColor="#778899"
+		android:layout_marginTop="5dip"
+     />  
+   
+    <DatePicker
+	  	android:id="@+id/p15_senddate"
+	  	android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:visibility="gone"
+     />  		
+     <Button
+	   	android:text="选择日期" android:id="@+id/p15_choosedate"  android:visibility="gone"
+		android:layout_width="wrap_content" android:textSize="18dp" 
+		android:layout_height="wrap_content" android:layout_marginLeft="15dip"/>
+	</LinearLayout>
+     <!--  价格信息 -->
+   <LinearLayout android:orientation="horizontal" android:layout_marginTop="10dip"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:text="@string/p15_str_wgoods"
+			android:layout_width="wrap_content" android:textSize="15dp"
+			android:textColor="#949449" android:layout_height="wrap_content">
+		</TextView>
+		 <TextView android:id="@+id/p15_str_wgoods"
+			android:layout_width="wrap_content" android:textSize="15dp"
+			android:textColor="#FF8040" android:layout_height="wrap_content">
+		</TextView>
+		<TextView android:text="@string/p15_str_lgoods" android:layout_marginLeft="25dip"
+			android:layout_width="wrap_content" android:textSize="15dp"
+			android:textColor="#949449" android:layout_height="wrap_content">
+		</TextView>
+		 <TextView android:id="@+id/p15_str_lgoods"
+			android:layout_width="wrap_content" android:textSize="15dp"
+			android:textColor="#FF8040" android:layout_height="wrap_content">
+		</TextView>
+	</LinearLayout>	
+	<!-- 最低一票 -->
+	<LinearLayout android:orientation="horizontal" android:layout_marginTop="10dip"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:text="@string/p15_str_minprice"
+			android:layout_width="wrap_content" android:textSize="15dp" 
+			android:textColor="#949449" android:layout_height="wrap_content">
+		</TextView>
+		<TextView android:id="@+id/p15_str_minprice"
+			android:layout_width="wrap_content" android:textSize="15dp" 
+			android:textColor="#FF8040" android:layout_height="wrap_content">
+		</TextView>
+	</LinearLayout>	
+	<!-- 预计总部可提货时间 -->
+	<LinearLayout android:orientation="horizontal" android:layout_marginTop="10dip"
+			android:visibility="gone" android:id="@+id/p15_linear_taketime"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:text="@string/p15_str_takegoods"
+			android:layout_width="wrap_content" android:textSize="15dp" 
+			android:textColor="#949449" android:layout_height="wrap_content">
+		</TextView>
+		<TextView android:id="@+id/p15_str_takegoods"
+			android:layout_width="fill_parent" android:textSize="15dp" 
+			android:textColor="#ff1290" android:layout_height="wrap_content">
+		</TextView>
+	</LinearLayout>	
+	<!-- 预计总部可派送时间 -->
+	<LinearLayout android:orientation="horizontal" android:layout_marginTop="10dip"
+			android:visibility="gone" android:id="@+id/p15_linear_sendtime"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:text="@string/p15_str_sendgoods"
+			android:layout_width="wrap_content" android:textSize="15dp" 
+			android:textColor="#949449" android:layout_height="wrap_content">
+		</TextView>
+		<TextView android:id="@+id/p15_str_sendgoods"
+			android:layout_width="fill_parent" android:textSize="15dp" 
+			android:textColor="#ff1290" android:layout_height="wrap_content">
+		</TextView>
+	</LinearLayout>	
+	<!-- 运行时效 -->
+	<LinearLayout android:orientation="horizontal" android:layout_marginTop="10dip"
+			android:visibility="gone" android:id="@+id/p15_linear_worktime"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:text="@string/p15_str_worktime"
+			android:layout_width="wrap_content" android:textSize="15dp" 
+			android:textColor="#949449" android:layout_height="wrap_content">
+		</TextView>
+		<TextView android:id="@+id/p15_str_worktime"
+			android:layout_width="wrap_content" android:textSize="15dp" 
+			android:textColor="#FF8040" android:layout_height="wrap_content">
+		</TextView>
+	</LinearLayout>	
+	<!-- 空运信息 早中晚-->
+	<LinearLayout android:orientation="horizontal" android:layout_marginTop="10dip"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:visibility="gone" android:id="@+id/p15_layout_morning">
+		<TextView android:text="@string/p15_str_morning"
+			android:layout_width="wrap_content" android:textSize="15dp" 
+			android:textColor="#949449" android:layout_height="wrap_content">
+		</TextView>
+		<TextView android:id="@+id/p15_str_morning"
+			android:layout_width="wrap_content" android:textSize="15dp" 
+			android:textColor="#FF8040" android:layout_height="wrap_content">
+		</TextView>
+	</LinearLayout>
+	<!-- 中班 -->	
+	<LinearLayout android:orientation="horizontal" android:layout_marginTop="10dip"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:visibility="gone" android:id="@+id/p15_layout_non">
+		<TextView android:text="@string/p15_str_non"
+			android:layout_width="wrap_content" android:textSize="15dp" 
+			android:textColor="#949449" android:layout_height="wrap_content">
+		</TextView>
+		<TextView android:id="@+id/p15_str_non"
+			android:layout_width="wrap_content" android:textSize="15dp" 
+			android:textColor="#FF8040" android:layout_height="wrap_content">
+		</TextView>
+	</LinearLayout>
+	<!-- 晚班 -->
+	<LinearLayout android:orientation="horizontal" android:layout_marginTop="10dip"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:visibility="gone" android:id="@+id/p15_layout_night">
+		<TextView android:text="@string/p15_str_night"
+			android:layout_width="wrap_content" android:textSize="15dp" 
+			android:textColor="#949449" android:layout_height="wrap_content">
+		</TextView>
+		<TextView android:id="@+id/p15_str_night"
+			android:layout_width="wrap_content" android:textSize="15dp" 
+			android:textColor="#FF8040" android:layout_height="wrap_content">
+		</TextView>
+	</LinearLayout>
+	<!-- 班期 -->
+	<LinearLayout android:orientation="horizontal" android:layout_marginTop="20dip"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:visibility="gone" android:id="@+id/p15_layout_schedule">
+		<TextView android:text="@string/p15_str_schedule"
+			android:layout_width="wrap_content" android:textSize="15dp" 
+			android:textColor="#949449" android:layout_height="wrap_content">
+		</TextView>
+		<TextView android:id="@+id/p15_str_schedule"
+			android:layout_width="wrap_content" android:textSize="15dp" 
+			android:textColor="#FF8040" android:layout_height="wrap_content">
+		</TextView>
+	</LinearLayout>
+	<TextView android:text="@string/p15_str_backup" android:layout_marginTop="30dip"
+			android:layout_width="wrap_content" android:textSize="14dp"  
+			android:textColor="#cccccc" android:layout_height="wrap_content">
+   </TextView>
+</LinearLayout>

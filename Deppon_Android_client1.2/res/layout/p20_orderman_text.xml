@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/widget63"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView android:id="@+id/p20_goodsname" android:textColor="#ff9900cc"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="books" android:textSize="15dip" android:layout_alignTop="@+id/p20_tv_03"
+		android:layout_alignLeft="@+id/p20_orderdate">
+	</TextView>
+	<TextView android:id="@+id/p20_tv_03" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginLeft="5dip"
+		android:text="@string/p20_str_goodsname" android:textSize="15dp"
+		android:layout_marginRight="25dip"
+		android:layout_below="@+id/p20_tv_02" android:layout_alignParentLeft="true">
+	</TextView>
+	<TextView android:id="@+id/p20_orderdate" android:textColor="#ff9900cc"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="2011-10-25" android:layout_alignTop="@+id/p20_tv_02" 
+		android:layout_alignLeft="@+id/p20_ordernumber">
+	</TextView>
+	<TextView android:id="@+id/p20_ordernumber" android:textColor="#ff9900cc"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    android:layout_marginRight="0dip" android:text="" android:textSize="15dp" 
+		android:layout_alignParentTop="true" android:layout_toRightOf="@+id/p20_tv_01">
+	</TextView>
+	<TextView android:id="@+id/p20_tv_02" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginLeft="5dip"
+		android:text="@string/p20_str_orderdate" android:textSize="15dp"
+		android:layout_marginRight="25dip"
+		android:layout_below="@+id/p20_tv_01" android:layout_alignParentLeft="true">
+	</TextView>
+	<TextView android:id="@+id/p20_tv_01" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginLeft="5dip"
+		android:layout_marginRight="25dip"
+		android:text="@string/p20_str_ordernumber" android:textSize="15dp"
+		android:layout_alignParentTop="true" android:layout_alignParentLeft="true">
+	</TextView>
+</RelativeLayout>

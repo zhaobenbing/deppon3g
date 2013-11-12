@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<!-- 货物跟踪结果 -->
+		<!-- 您输入的运单号 -->
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:text="@string/p12_str_ydnumber"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#949449" android:layout_height="wrap_content">
+			</TextView>
+			<TextView android:id="@+id/p12_str_ydnumber"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#778899" android:layout_height="wrap_content">
+			</TextView>
+		</LinearLayout>
+		<!-- 运单状态 -->
+		<TextView android:text="@string/p12_str_ydstatus"
+			android:layout_width="wrap_content" android:textSize="15dp"
+			android:textColor="#cccccc" android:layout_height="wrap_content">
+		</TextView>
+
+		<!-- 运单状态 -->
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:text="@string/p12_str_status"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#949449" android:layout_height="wrap_content">
+			</TextView>
+			<TextView android:id="@+id/p12_str_status"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#778899" android:text="已签收"
+				android:layout_height="wrap_content">
+			</TextView>
+			<TextView android:text="@string/p12_str_descript"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#949449" android:layout_marginLeft="40dip"
+				android:layout_height="wrap_content">
+			</TextView>
+			<TextView android:id="@+id/p12_str_descript"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#778899" android:text="PDA查收"
+				android:layout_height="wrap_content">
+			</TextView>
+		</LinearLayout>
+		<!-- 基本信息 -->
+		<TextView android:text="@string/p12_str_basicinfo"
+			android:layout_width="wrap_content" android:textSize="15dp"
+			android:textColor="#cccccc" android:layout_height="wrap_content">
+		</TextView>
+		<!-- 目的城市 -->
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:text="@string/p12_str_endcity"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#949449" android:layout_height="wrap_content">
+			</TextView>
+			<TextView android:id="@+id/p12_str_endcity"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#778899" android:text="北京海淀"
+				android:layout_height="wrap_content">
+			</TextView>
+		</LinearLayout>
+		<!-- 运输方式 -->
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:text="@string/p12_str_trackway"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#949449" 
+				android:layout_height="wrap_content">
+			</TextView>
+			<TextView android:id="@+id/p12_str_trackway"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#778899" android:text="精准汽运(长)"
+				android:layout_height="wrap_content">
+			</TextView>
+		</LinearLayout>
+
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:text="@string/p12_str_takeway"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#949449" android:layout_height="wrap_content">
+			</TextView>
+			<TextView android:id="@+id/p12_str_takeway"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#778899" android:text="送货上门"
+				android:layout_height="wrap_content">
+			</TextView>
+		</LinearLayout>
+		<!-- 货物名称 -->
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:text="@string/p12_str_goodsname"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#949449" 
+				android:layout_height="wrap_content">
+			</TextView>
+			<TextView android:id="@+id/p12_str_goodsname"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#778899" android:text="电脑控制器"
+				android:layout_height="wrap_content">
+			</TextView>
+		</LinearLayout>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:text="@string/p12_str_goodscount"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#949449" android:layout_height="wrap_content">
+			</TextView>
+			<TextView android:id="@+id/p12_str_goodscount"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#778899" android:text="1件" android:layout_height="wrap_content">
+			</TextView>
+			<TextView android:text="@string/p12_str_goodsweight"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#949449" android:layout_marginLeft="10dip"
+				android:layout_height="wrap_content">
+			</TextView>
+			<TextView android:id="@+id/p12_str_goodsweight"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#778899" android:text="4.90公斤"
+				android:layout_height="wrap_content">
+			</TextView>
+		</LinearLayout>
+		<!-- 货物体积 -->
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:text="@string/p12_str_goodsvolume"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#949449" android:layout_height="wrap_content">
+			</TextView>
+			<TextView android:id="@+id/p12_str_goodsvolume"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#778899" android:text="0.02方"
+				android:layout_height="wrap_content">
+			</TextView>
+		</LinearLayout>
+		<!-- 到达信息 -->
+		<TextView android:text="@string/p12_str_arriveinfo"
+			android:layout_width="wrap_content" android:textSize="15dp"
+			android:textColor="#cccccc" android:layout_height="wrap_content">
+		</TextView>
+
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:text="@string/p12_str_takename"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#949449" android:layout_height="wrap_content">
+			</TextView>
+			<TextView android:id="@+id/p12_str_takename"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#778899" android:text="北京海淀派送部"
+				android:layout_height="wrap_content">
+			</TextView>
+		</LinearLayout>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:text="@string/p12_str_takeperson"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#949449" 
+				android:layout_height="wrap_content">
+			</TextView>
+			<TextView android:id="@+id/p12_str_takeperson"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#778899" android:text="张三" android:layout_height="wrap_content">
+			</TextView>
+		</LinearLayout>
+		<!-- 提货电话 -->
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:text="@string/p12_str_takephone"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#949449" android:layout_height="wrap_content">
+			</TextView>
+			<TextView android:id="@+id/p12_str_takephone"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#778899" android:text="010-57790029，传真82340131 "
+				android:layout_height="wrap_content">
+			</TextView>
+		</LinearLayout>
+		<!-- 提货地点 -->
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:text="@string/p12_str_takeaddress"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#949449" android:layout_height="wrap_content">
+			</TextView>
+			<TextView android:id="@+id/p12_str_takeaddress"
+				android:layout_width="wrap_content" android:textSize="15dp"
+				android:textColor="#778899" android:text="海淀区京包路9号（上地东路向北或北清路向南1公里）"
+				android:layout_height="wrap_content">
+			</TextView>
+		</LinearLayout>
+		<!-- 跟踪信息 -->
+		<Button
+			android:id="@+id/p12_btn_trackinfo"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="跟踪详情"
+			android:textSize="15dp"
+	  	/>
+	</LinearLayout>
+</ScrollView>
+  

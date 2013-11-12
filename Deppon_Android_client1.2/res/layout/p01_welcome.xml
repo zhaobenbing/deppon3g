@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="@drawable/welcome"
+  android:gravity="bottom"
+>
+ <!-- 进度条 -->
+ 	<ProgressBar android:id="@+id/p01_progress"
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:max="100"
+  		style="?android:attr/progressBarStyleHorizontal"
+ 	/>
+ 	
+  <!-- 显示进度条的信息 -->
+  <TextView android:id="@+id/p01_progress_text"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="@string/p01_progress_text"
+	android:gravity="bottom"
+	android:textSize="18dp"
+	android:textColor="#ffffff"
+  />
+</LinearLayout>

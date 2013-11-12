@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+   <ImageView android:id="@+id/welcome_image" android:src="@drawable/user_login"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+  />
+
+  <TextView android:id="@+id/p02_user_name_tv"
+   android:text="@string/p02_str_t0202"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content">
+  </TextView>
+  <EditText android:id="@+id/p02_user_name_et"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:hint="请输入Email"
+   android:layout_toRightOf="@id/p02_user_name_tv">
+  </EditText>
+
+  <TextView android:id="@+id/p02_password_tv"
+  android:text="@string/p02_str_t0203"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:layout_below="@id/p02_user_name_tv"/>
+
+  <EditText android:id="@+id/p02_password_et"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:password="true"
+   android:hint="请输入密码"
+   android:layout_toRightOf="@id/p02_password_tv"/>
+
+  <Button android:id="@+id/p02_k0201" 
+  	android:text="@string/p02_str_k0201"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+   />
+
+  <Button android:id="@+id/p02_k0202" 
+  	android:text="@string/p02_str_k0202"
+  	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+   />
+  <Button android:id="@+id/p02_k0203" 
+  	android:text="@string/p02_str_k0203"
+  	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dip"
+   />
+</LinearLayout>

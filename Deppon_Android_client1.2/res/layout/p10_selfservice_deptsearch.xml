@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+  
+   <TextView android:id="@+id/p10_deptsearch_tv"
+	   android:text="@string/p10_str_t1001"
+	   android:layout_width="wrap_content"
+	   android:textSize="18dp"
+	   android:textColor="#949449"
+	   android:layout_height="wrap_content">
+  </TextView>
+  
+  <!-- 网点查询下拉列表 -->
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<Spinner	
+			android:id="@+id/p10_sp_province"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+ 			android:layout_marginLeft="5dip"
+ 		/>
+		<Spinner	
+			android:id="@+id/p10_sp_city"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+ 			android:layout_marginLeft="15dip"
+		/>
+	</LinearLayout>
+	
+	<LinearLayout 
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip">
+		<TextView	
+ 			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+ 			android:layout_marginLeft="5dip"
+ 			android:text="@string/p10_str_t1002"
+ 			android:gravity="center"
+ 			android:textSize="15dp"
+ 			android:textColor="#DFFFDF"
+ 		/>
+       <!--查看详细 网点信息 -->
+	  <AutoCompleteTextView
+			android:id="@+id/p10_et_deptname"
+			android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+ 	    	android:textSize="15dp"
+	    	android:gravity="center"
+	    	
+	    	android:layout_marginLeft="5dip"
+	      />
+	</LinearLayout>
+	<Button
+		android:id="@+id/p10_btn_b1001"
+		android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/p10_btn_b1001"
+    	android:textSize="15dp"
+    	android:gravity="center"
+    	android:textColor="#211201"
+ 	 />
+ 	<ListView
+	  	android:id="@+id/lv"
+	  	android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip"
+ 		android:layout_marginLeft="5dip"
+   />  		
+</LinearLayout>
+  

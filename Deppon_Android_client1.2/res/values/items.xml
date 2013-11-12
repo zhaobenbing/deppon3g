@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 导航标题 -->
+	<string name="produce_bussiness">产品业务</string>
+	<string name="bussiness_hall">营业厅</string>
+	<string name="self_service">自助服务</string>
+	<string name="system_manage">系统管理</string>
+	<string name="consult_advice">咨询建议</string>
+	<!-- 产品业务items -->
+	<string name="airport_transport">精准空运</string>
+	<string name="truck_transport">精准汽运</string>
+	<string name="city_transport">精准城运</string>
+	<string name="boat_transport">精准卡航</string>
+	<!-- 营业厅items -->
+	<string name="now_order">现在下单</string>
+	<string name="order_manage">订单管理</string>
+	<string name="online_pay">在线支付</string>
+ 	<!-- 自助服务items -->
+	<string name="branch_query">网点查询</string>
+	<string name="price_query">价格时效查询</string>
+	<string name="embargo_query">禁运品查询</string>
+	<string name="goods_track">货物跟踪</string>
+	<!-- 系统管理items -->
+	<string name="login_or_regist">登陆注册</string>
+	<string name="modify_datum">个人资料</string>
+	<string name="contact_manage">联系人</string>
+	<string name="modify_password">修改密码</string>
+	<!--咨询建议 -->
+	<string name="consult">咨询</string>
+	<string name="proposal">建议</string>
+	<string name="complain">投诉</string>
+	
+	<!-- all titles -->
+	 
+</resources>

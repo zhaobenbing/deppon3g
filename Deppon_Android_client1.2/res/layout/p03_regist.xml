@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    	
+    	<TextView 
+    		android:text="@string/p03_str_t0301"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_marginLeft="1dip"
+    		android:layout_marginTop="2dip"
+    		/>
+    	<EditText android:id="@+id/p03_email"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_marginLeft="2dip"
+    		android:layout_marginTop="2dip"
+    		android:hint="请输入正确的Email"
+    		/>
+    </LinearLayout>
+    
+    <LinearLayout android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    	
+    	<TextView 
+    		android:text="@string/p03_str_t0302"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_marginLeft="1dip"
+    		android:layout_marginTop="2dip"
+    		/>
+    	<EditText android:id="@+id/p03_phone"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_marginLeft="2dip"
+    		android:layout_marginTop="2dip"
+    		android:numeric="integer"
+    		android:hint="请输入正确的电话号码"
+    		/>
+    </LinearLayout>
+ 
+    <LinearLayout android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    	
+    	<TextView android:text="@string/p03_str_t0303"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_marginLeft="1dip"
+    		android:layout_marginTop="2dip"
+    		/>
+    	<EditText android:id="@+id/p03_password"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:password="true"
+    		android:layout_marginLeft="2dip"
+    		android:layout_marginTop="2dip"
+    		/>
+    </LinearLayout>
+    
+    <LinearLayout android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    	
+    	<TextView android:text="@string/p03_str_t0304"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_marginLeft="1dip"
+    		android:layout_marginTop="2dip"
+    		/>
+    	<EditText android:id="@+id/p03_repassword"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:password="true"
+    		android:layout_marginLeft="2dip"
+    		android:layout_marginTop="2pt"
+    		/>
+    </LinearLayout>
+    
+    	
+   	<Button android:id="@+id/p03_button_regist"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+    	android:layout_marginTop="5dip"
+   		android:text="  注册  "/>
+   		
+   		<Button android:id="@+id/p03_button_logout"
+   			android:layout_width="fill_parent"
+   			android:layout_height="wrap_content"
+    		android:layout_marginTop="5dip"
+   			android:text="  退出  "  
+   		/>
+  </LinearLayout>

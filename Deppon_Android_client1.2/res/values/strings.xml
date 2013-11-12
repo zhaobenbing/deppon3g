@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="version"> 1.0.0</string>
+    <string name="app_name">德邦网营3G应用门户</string>
+    
+    <string name="p01_title">欢迎访问德邦网营3G应用门户</string>
+    <string name="p02_title">德邦网营3G应用门户--登录页面</string>
+    <string name="p03_title">德邦网营3G应用门户--注册页面</string>
+    <string name="p04_title">德邦网营3G应用门户--主页面</string>
+	<!-- 
+	  /****** 运输业务对应关系如下：*************
+             *      现在            原来        枚举值
+             *    精准空运        空运普件        0
+             *    精准空运        空运急件        1
+             *    精准汽运[长]    普通汽运        2
+             *    精准卡航        卡车航班        3
+             *    精准城运        城际快车        4
+             *    汽运偏线        汽运偏线        5
+             *    精准汽运[短]    短途专线        6
+     	     *   	
+	 -->
+	<string-array name="transportType">
+		<item>精准空运</item>
+    	<item>精准汽运</item>>
+    	<item>精准卡航</item>
+    	<item>精准城运</item>
+	</string-array>
+   <string-array name="ordersearch">
+   		<item>请选择</item>
+		<item>所有订单</item>
+    	<item>最近一周订单</item>>
+    	<item>最近一笔订单</item>
+    	<item>已受理订单</item>
+    	<item>未受理订单</item>
+    	<item>已取消订单</item>
+ 	</string-array>
+ 	
+    
+</resources>

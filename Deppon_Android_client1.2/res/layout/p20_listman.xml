@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="horizontal">
+		<TextView
+		  	android:text="订单管理"
+		  	android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="15dip"
+			android:textSize="20dp"
+			android:textColor="#23ff00"
+	    />  
+	    <Spinner android:id="@+id/p20_sp"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginLeft="8dip"
+	    />
+	    <Button android:id="@+id/p20_btn"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="确定"
+	    	android:textColor="#342342"
+	    	android:layout_marginLeft="8dip"
+	    />
+    </LinearLayout>
+	<ListView
+	  	android:id="@+id/p20_lv"
+	  	android:layout_width="fill_parent"
+		android:layout_height="380dp"
+    />  		
+</LinearLayout>
+ </ScrollView>
